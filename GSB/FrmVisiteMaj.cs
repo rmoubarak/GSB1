@@ -246,6 +246,7 @@ namespace GSB
             // couleur du texte
             // dgv.RowsDefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
 
+
             #endregion
 
             #region paramètrage des colonnes
@@ -321,8 +322,6 @@ namespace GSB
             lblDate.Text = uneVisite.DateEtHeure.ToLongDateString();
             // dtpDate.Value = uneVisite.DateEtHeure;
             dtpDate.Value = dtpDate.MinDate;
-
-
         }
 
         private void dgvVisitesMaj_SelectionChanged(object sender, EventArgs e)
