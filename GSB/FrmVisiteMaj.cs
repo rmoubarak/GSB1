@@ -246,6 +246,7 @@ namespace GSB
             // couleur du texte
             // dgv.RowsDefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
 
+
             #endregion
 
             #region paramètrage des colonnes
