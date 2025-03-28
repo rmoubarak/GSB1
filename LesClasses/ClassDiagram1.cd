@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="lesClasses.Famille">
+    <Position X="5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAUACAAAAAAAA=</HashCode>
+      <FileName>Famille.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lesClasses.Medicament">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAACAQEAAAAAAAAACAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Medicament.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LaFamille" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lesClasses.Motif">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Motif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lesClasses.Visite">
+    <Position X="2.5" Y="3.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAADCgAAAQAABBQAAAAAAACAAAAAAAAQAAAIAAgABAA=</HashCode>
+      <FileName>Visite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LeMotif" />
+      <Property Name="PremierMedicament" />
+      <Property Name="SecondMedicament" />
+      <Property Name="LePraticien" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lesClasses.Praticien">
+    <Position X="7" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAQAACAAEEQAAAgAAAAAECAAAAAAAaAAAQAAAAI=</HashCode>
+      <FileName>Praticien.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Specialite" />
+      <Property Name="Type" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lesClasses.Ville">
+    <Position X="10" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ville.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lesClasses.TypePraticien">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>TypePraticien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lesClasses.Specialite">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Specialite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
